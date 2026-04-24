@@ -17,13 +17,13 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     private String title;
     private String genre;
     private Double rating;
-    
+
     @Column(length = 1000)
     private String description;
-    
+
     private String imageUrl;
 }
